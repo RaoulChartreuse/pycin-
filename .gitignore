@@ -67,3 +67,7 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+
+# Je veux pas de .project
+.project
