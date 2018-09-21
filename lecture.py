@@ -9,7 +9,10 @@ ap.add_argument("-i", "--input", required = True,
 args = ap.parse_args()
 filename= args.input
 
-r=np.load(filename)
+#r=np.load(filename)
+#Ecriture de la version c++
+r=np.loadtxt(filename)
+    
 x=np.arange(r.size)
 print r,x
 
